@@ -1,0 +1,66 @@
+#countries{
+    padding: 20px 0;
+}
+#countries .title h3{
+    font-size: 40px;
+    color: #01011f;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+#countries .title p{
+    font-size: 18px;
+    color: #01011f;
+    font-weight: 600;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+#countries .item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#countries .country{
+    width: 23%;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid orangered;
+}
+#countries .country h3{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #01011f;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+#countries .country p{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #01011f;
+    line-height: 1.5;
+}
+#countries .country .button a{
+    margin-top: 15px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    padding: 8px 0;
+    border-radius: 5px;
+    transition: .4s;
+    border: 1px solid #01011f;
+    color: #01011f;
+    display: block;
+    text-align: center;
+}
+#countries .country .button a:hover{
+    color: #fff;
+    background-color: #01011f;
+}
